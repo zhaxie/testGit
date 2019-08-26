@@ -18,3 +18,6 @@ $ git status
 
 5）查看有什么不同
 $git diff
+
+6）版本回退
+$git reset --hard HEAD^ 回退到上一个版本
