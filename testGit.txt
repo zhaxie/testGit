@@ -21,3 +21,7 @@ $git diff
 
 6）版本回退
 $git reset --hard HEAD^ 回退到上一个版本
+$git reset --hard 版本id     回退到指定版本
+$git reflog          打开所有的操作记录
+
+7）
