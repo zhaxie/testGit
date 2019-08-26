@@ -35,4 +35,7 @@ $git diff HEAD -- fileName
 9）查看工作区和 分支最新版本的区别
 $git diff HEAD -- fileName 
 
-10）删除分支修改
+10）删除文件
+$ rm fileName 删除工作区的文件
+如果要把git中的文件删除 需要 $git rm fileName  再 $git commit
+
