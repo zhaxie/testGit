@@ -25,4 +25,12 @@ $git reset --hard 版本id     回退到指定版本
 $git reflog          打开所有的操作记录
 
 7）查看工作区和已提交的分支有什么区别
-$git diff HEAD -- 文件名字 
+$git diff HEAD -- fileName 
+
+8) 撤销对工作区的修改
+两种情况： 一： 未提交到暂存区： $ git checkout -- fileName  直接撤销暂存区
+	二：已提交到暂存区：第一步： git reset HEAD  fileName  撤销暂存区的修改  
+			第二步： $ git checkout -- fileName  直接撤销暂存区
+
+9）查看工作区和 分支最新版本的区别
+$git diff HEAD -- fileName 
