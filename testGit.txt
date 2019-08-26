@@ -8,8 +8,13 @@ $ pwd
 2）初始化版本库
 $ git init
 
-3)添加到暂存区
+3)添加到暂存区\提交
 $ git add testGit.txt
+$ git commit -m "提交说明"
 
 4）查看当前的状态
 $ git status
+可以看看有没有什么提交的
+
+5）查看有什么不同
+$git diff
