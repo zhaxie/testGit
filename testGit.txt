@@ -10,3 +10,6 @@ $ git init
 
 3)添加到暂存区
 $ git add testGit.txt
+
+4）查看当前的状态
+$ git status
