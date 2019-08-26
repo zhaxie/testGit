@@ -1,0 +1,12 @@
+
+第一步：
+1）建立git版本库
+$ mkdir learngit
+$ cd learngit
+$ pwd
+
+2）初始化版本库
+$ git init
+
+3)添加到暂存区
+$ git add testGit.txt
