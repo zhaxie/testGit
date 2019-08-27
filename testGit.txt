@@ -40,3 +40,11 @@ $ rm fileName 删除工作区的文件
 如果要把git中的文件删除 需要 $git rm fileName  再 $git commit
 
 2019-08-27
+
+11）关联远程库
+$git remote add origin git@gitHub.com: zhaxie/testGit.git
+网站名字  + ： + 仓库路径
+
+12）推送到远程库：
+	首次：$git push -u origin master
+	以后：$git push orign master
