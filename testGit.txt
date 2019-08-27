@@ -39,3 +39,4 @@ $git diff HEAD -- fileName
 $ rm fileName 删除工作区的文件
 如果要把git中的文件删除 需要 $git rm fileName  再 $git commit
 
+2019-08-27
