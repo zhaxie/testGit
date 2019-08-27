@@ -47,4 +47,4 @@ $git remote add origin git@gitHub.com: zhaxie/testGit.git
 
 12）推送到远程库：
 	首次：$git push -u origin master
-	以后：$git push orign master
+	以后：$git push origin master
