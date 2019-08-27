@@ -17,7 +17,7 @@ $ git status
 可以看看有没有什么提交的
 
 5）查看有什么不同
-$git diff
+$git diff fileName
 
 6）版本回退
 $git reset --hard HEAD^ 回退到上一个版本
