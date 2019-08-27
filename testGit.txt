@@ -46,5 +46,37 @@ $git remote add origin git@gitHub.com: zhaxie/testGit.git
 网站名字  + ： + 仓库路径
 
 12）推送到远程库：
-	首次：$git push -u origin master
+	首次：$git push -u origin master 
 	以后：$git push origin master
+
+13）克隆远程库
+	$git clone git@gitHub.com: zhaxie/testGit.git
+	可以在任意文件夹中执行git Bash 然后把目标文件克隆下来
+
+14）创建并切换分支
+	$git checkout -b dev
+
+15)  切换分支
+	$git checkout 分支名字
+
+16）创建分支
+	$git branch 分支名字
+	 测试2
+17）合并分支
+	$git merge 目标分支
+	测试冲突位置2
+
+18）查看分支图
+	$git log --graph
+
+
+临时分支
+19）隐藏现场
+	$git stash
+
+20）显示现场
+	方式一：$git stash apply 恢复 $git stash drop  删除stash 内容
+	方式二：$git stash pop 恢复现场并删除stash 内容
+	
+21）修复在其他分支上的同个bug
+	$ git cherry-pick 步骤id     这样可以把修复后的结果同步到其他分支
